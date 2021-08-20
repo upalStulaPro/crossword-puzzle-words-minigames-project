@@ -44,7 +44,7 @@ public class coutriesDragDropButton : MonoBehaviour
                 wins += all[i].win;
                 Debug.Log(wins); 
   
-                if (wins <= all.Length)
+                if (wins >= all.Length)
                 {
                     this.tadam();
                     this.nextlevel();
